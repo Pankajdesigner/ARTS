@@ -1,0 +1,691 @@
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+.btn_1 {
+	padding: 7px 12px;
+	font-size: 14px;
+	font-weight: 500;
+	background-color: #f7b228;
+	color: #fff;
+	border: 2px solid #f7b228;
+	display: inline-block;
+	text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    font-family: 'Open Sans', sans-serif;
+	transition: 0.5s;
+}
+.btn_1:hover {
+	background-color: #d8b25a;
+	border: 2px solid #d8b25a;
+	color: #fff;
+}
+
+.about-us .about-img{
+  padding-right: 30px;
+}
+/* home slider */
+
+.about-banners .img-slide1 {
+  background: url(../images/about-us/bg.webp);
+  padding-top: 260px;
+  padding-bottom: 260px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  text-align: left;
+}
+
+.about-banners .img-slide1.two {
+  background: url(../images/slider-2.webp);
+  background-size: cover;
+  background-position: center;
+}
+.about-banners .slider1 {
+  max-width: 875px;
+}
+
+.about-banners .small-tt {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f7b228;
+  text-transform: uppercase;
+}
+
+.about-banners a:focus,
+.about-banners button:focus {
+  outline: none;
+}
+
+.about-banners .big-tt {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.about-banners p{
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.about-banners .slider-btn {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px #fff solid;
+  padding: 0px 20px;
+  display: inline-block;
+  border-radius: 120px;
+  line-height: 50px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+}
+
+.about-banners .slider-btn:hover {
+  text-decoration: none;
+  background: #f7b228;
+  transition: 0.5s;
+}
+
+.about-banners .slider-btn img {
+  display: inline-block;
+  width: auto !important;
+}
+
+
+  /************Team css start***************/
+/* line 2, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+.team_part {
+	padding-top: 130px;
+	position: relative;
+	z-index: 99;
+	overflow: hidden;
+}
+  
+  @media (max-width: 576px) {
+    /* line 2, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part {
+      padding-top: 70px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 2, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part {
+      padding-top: 70px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 2, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part {
+      padding-top: 70px;
+    }
+  }
+  
+  /* line 18, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+  .team_part .overlay-img {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    top: 130px;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 18, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .overlay-img {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 18, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .overlay-img {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 18, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .overlay-img {
+      display: none;
+    }
+  }
+  
+  /* line 36, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+  .team_part:after {
+    position: absolute;
+    content: "";
+    top: 260px;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    background-color: #F7F7F7;
+    z-index: -1;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 36, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part:after {
+      /*display: none;*/
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 36, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part:after {
+      top: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 36, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part:after {
+      top: 0;
+    }
+  }
+  
+  /* line 58, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+  .team_part::before {
+	position: absolute;
+	content: "";
+	left: 0;
+	width: 50%;
+	top: 130px;
+	height: 75%;
+	background-image: url(../images/about-us/team_member.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 2;
+}
+  
+
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 58, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part:before {
+      /*display: none;*/
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 58, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part:before {
+      /*display: none;*/
+    }
+  }
+  
+  /* line 83, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+  .team_part .team_member_text {
+    padding: 244px 0px 120px;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 83, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .team_member_text {
+      padding: 0px 0px 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 83, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .team_member_text {
+      padding: 0px 0px 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 83, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .team_member_text {
+      padding: 0px 0px 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 83, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .team_member_text {
+      padding: 169px 0px 65px;
+    }
+  }
+  
+  /* line 97, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+  .team_part .team_member_text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 50px;
+    position: relative;
+    color: #000000;
+  }
+  
+  /* line 103, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+  .team_part .team_member_text h2:after {
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 90px;
+    content: "";
+    background-color: #f7b228;
+    bottom: -15px;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 97, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .team_member_text h2 {
+      font-size: 25px;
+      margin-bottom: 35px;
+      line-height: 35px;
+      margin-top: 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 97, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .team_member_text h2 {
+      font-size: 25px;
+      margin-bottom: 35px;
+      line-height: 35px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 97, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .team_member_text h2 {
+      font-size: 30px;
+      margin-bottom: 35px;
+      line-height: 40px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 97, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .team_member_text h2 {
+      font-size: 30px;
+      margin-bottom: 35px;
+      line-height: 40px;
+    }
+  }
+  
+  /* line 133, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+  .team_part .team_member_text p {
+    line-height: 1.929;
+    margin-bottom: 30px;
+  }
+  
+  /* line 137, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+  .team_part .team_member_text ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 35px;
+  }
+  
+  /* line 142, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+  .team_part .team_member_text ul li {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+    color: #7f7f7f;
+    padding-left: 33px;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 142, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .team_member_text ul li {
+      padding-left: 41px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 142, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .team_member_text ul li {
+      padding-left: 41px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 142, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .team_member_text ul li {
+      padding-left: 41px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 142, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .team_member_text ul li {
+      padding-left: 41px;
+    }
+  }
+  
+  /* line 161, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+  .team_part .team_member_text ul li span {
+	margin-right: 17px;
+	color: #f7b228;
+	font-size: 16px;
+	position: absolute;
+	left: 14px;
+	margin-top: 5px;
+}
+  
+  @media (max-width: 576px) {
+    /* line 161, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .team_member_text ul li span {
+      padding-bottom: 15px;
+      position: absolute;
+      left: 15px;
+      padding-top: 2px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 161, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .team_member_text ul li span {
+      padding-bottom: 15px;
+      position: absolute;
+      left: 15px;
+      padding-top: 2px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 161, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .team_member_text ul li span {
+      padding-bottom: 15px;
+      position: absolute;
+      left: 15px;
+      padding-top: 2px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 161, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+    .team_part .team_member_text ul li span {
+      padding-bottom: 15px;
+      position: absolute;
+      left: 15px;
+      padding-top: 6px;
+    }
+  }
+  .team_part .team_member_text .social-icon ul li {
+    padding-left: 0px !important;
+    padding-right: 0px;
+    background: white;
+    border: 1px solid #f7b228;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 45px;
+    margin-right: 18px;
+    /* display: inline-block; */
+  }
+  /* line 194, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+  .team_part .team_member_text .btn_1 {
+    padding: 10px 42px;
+  }
+  
+  /************passion css start***************/
+  /* line 2, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+  .passion_part {
+    background-image: url("../images/about-us/passion_bg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 250px 0px 130px;
+    position: relative;
+    z-index: 1;
+    margin-top: -125px;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 2, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+    .passion_part {
+      margin-top: 70px;
+      padding: 70px 0px 50px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 2, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+    .passion_part {
+      margin-top: 70px;
+      padding: 70px 0px 50px;
+    }
+
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 2, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+    .passion_part {
+      margin-top: 70px;
+      padding: 70px 0px 50px;
+    }
+  }
+  
+  /* line 24, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+  .passion_part:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1d2e4a;
+    opacity: 0.651;
+    z-index: -1;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  /* line 36, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+  .passion_part .single_passion {
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  /* line 38, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+  .passion_part .single_passion .single_passion_item {
+    padding: 44px 25px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+    min-height: 290px;
+  }
+  /* line 44, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+  .passion_part .single_passion .single_passion_item:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url(../images/about-us/patten_bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  /* line 58, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+  .passion_part .single_passion .single_passion_item .passion_icon {
+	height: 80px;
+	width: 80px;
+	display: inline-block;
+	text-align: center;
+	line-height: 72px;
+	border: 1px solid #afb5be;
+	border-radius: 5px;
+	margin-bottom: 35px;
+	background: aliceblue;
+}
+.passion_part .single_passion .single_passion_item .passion_icon img {
+    max-width: 100%;
+}
+  
+  /* line 67, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+  .passion_part .single_passion .single_passion_item .passion_icon i {
+    font-size: 42px;
+    color: #fff;
+    display: inline-block;
+  }
+  
+  /* line 73, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+  .passion_part .single_passion .single_passion_item h4 {
+	font-size: 19px;
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 25px;
+	line-height: 25px;
+}
+  
+  /* line 79, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+  .passion_part .single_passion .single_passion_item p {
+    line-height: 1.857;
+    color: #fff;
+  }
+  
+  /* line 83, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+  .passion_part .single_passion .single_passion_item .btn_2 {
+    margin-top: 30px;
+  }
+   /* line 112, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+   .passion_part .single_passion {
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+ 
+  .section_tittle h1 {
+	font-size: 40px;
+	color: #fff;
+	line-height: 1.25;
+	font-weight: 700;
+	margin-bottom: 80px;
+	position: relative;
+}
+.section_tittle h1::after {
+	position: absolute;
+	left: 0;
+	height: 2px;
+	width: 90px;
+	content: "";
+	background-color: #f7b228;
+	bottom: -27px;
+}
+  
+  @media (max-width: 576px) {
+    /* line 38, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+    .passion_part .single_passion .single_passion_item {
+      padding: 30px 20px 35px;
+    }
+    .section_tittle h1 {
+      font-size: 25px;
+    }
+    .section_tittle h1::after {
+      bottom: -20px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 38, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+    .passion_part .single_passion .single_passion_item {
+      padding: 30px 20px 35px;
+    }
+    .section_tittle h1 {
+      font-size: 25px;
+    }
+    .section_tittle h1::after {
+      bottom: -20px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 38, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+    .passion_part .single_passion .single_passion_item {
+      padding: 30px 20px 35px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* line 36, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+    .passion_part .single_passion {
+      margin-bottom: 25px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 36, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+    .passion_part .single_passion {
+      margin-bottom: 25px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 36, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
+    .passion_part .single_passion {
+      margin-bottom: 25px;
+    }
+  }
+  
+ 
+  
+  /************passion css start***************/
+  @media (max-width:991px) {
+ 
+    .header {
+        background: #1e1e1e;
+    }
+    .team_part{
+      padding-top: 400px;
+    }
+    .team_part:before {
+      width: 320px;
+      height: 260px;
+    }
+    .about-banners .small-tt {
+      font-size: 20px;
+  }
+  .about-banners .big-tt {
+    font-size: 25px;
+
+}
+
+.about-banners .slider-btn {
+    font-size: 16px;
+    border: 1px #fff solid;
+    padding: 0px 21px;
+    line-height: 40px;
+}
+
+.about-banners .img-slide1 {
+    padding-top: 140px;
+    padding-bottom: 70px;
+
+}
+  }
+
+@media (max-width: 576px) {
+  /* line 58, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
+  .team_part:before {
+    /*display: none;*/
+    width: 320px;
+    height: 260px;
+    top: 60px;
+  }
+  .team_part {
+    padding-top: 340px;
+  }
+  .about-us .about-img{
+    padding-right: 0px;
+  }
+
+}

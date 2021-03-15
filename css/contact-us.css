@@ -1,0 +1,283 @@
+
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+  /* line 4, E:/161 Real estate/161_Real_state_html/sass/_breadcrumb.scss */
+.breadcrumb {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.blog_bg {
+	background-image: url("../images/about-us/contact-us.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+/* line 8, E:/161 Real estate/161_Real_state_html/sass/_breadcrumb.scss */
+.breadcrumb:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  content: "";
+  opacity: 0.6;
+  z-index: -1;
+}
+
+/* line 19, E:/161 Real estate/161_Real_state_html/sass/_breadcrumb.scss */
+.breadcrumb .breadcrumb_iner {
+  height: 340px;
+  width: 100%;
+  display: table;
+}
+
+/* line 23, E:/161 Real estate/161_Real_state_html/sass/_breadcrumb.scss */
+.breadcrumb .breadcrumb_iner .breadcrumb_iner_item {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 26, E:/161 Real estate/161_Real_state_html/sass/_breadcrumb.scss */
+.breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 27px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 576px) {
+  /* line 26, E:/161 Real estate/161_Real_state_html/sass/_breadcrumb.scss */
+  .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .breadcrumb .breadcrumb_iner {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 26, E:/161 Real estate/161_Real_state_html/sass/_breadcrumb.scss */
+  .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .breadcrumb .breadcrumb_iner {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 26, E:/161 Real estate/161_Real_state_html/sass/_breadcrumb.scss */
+  .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .breadcrumb .breadcrumb_iner {
+    height: 200px;
+  }
+}
+
+/* line 48, E:/161 Real estate/161_Real_state_html/sass/_breadcrumb.scss */
+.breadcrumb .breadcrumb_iner .breadcrumb_iner_item p, .breadcrumb .breadcrumb_iner .breadcrumb_iner_item a {
+  font-size: 15px;
+  color: #fff;
+}
+
+/* line 52, E:/161 Real estate/161_Real_state_html/sass/_breadcrumb.scss */
+.breadcrumb .breadcrumb_iner .breadcrumb_iner_item span {
+  margin: 0px 5px;
+  font-size: 12px;
+}
+
+ /*contact-1 start  */
+ .contact-1 {
+	margin-top: -160px;
+	position: relative;
+	z-index: 1;
+  padding-bottom: 80px;
+}
+.dis-flex-contact {
+    display: flex;
+    background: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 10px 0 30px rgb(0 0 0 / 23%);
+}
+.box h4{
+    color: #fff;
+    font-size: 20px;
+}
+.contact-info {
+	font-size: 25px;
+	color: #ffffff;
+	margin-bottom: 40px;
+}
+.contact-form {
+	width: 100%;
+  padding: 40px;
+}
+.contact-details {
+	width: 550px;
+	padding: 40px;
+	background: #f7b228;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+}
+.contact-details::before {
+	position: absolute;
+	content: "";
+	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+	background: #f7b739;
+	width: 410px;
+	height: 430px;
+	z-index: -1;
+	bottom: -60px;
+	right: -110px;
+}
+.contact-1 .contact-text .box {
+	border-radius: 5px;
+	padding: 0px;
+	text-align: left;
+	margin-bottom: 15px;
+	position: relative;
+	padding-left: 52px;
+	margin-bottom: 42px;
+}
+.contact-1 .contact-text  .box img{
+width: 35px;
+}
+.contact-1 .contact-text .box h5 {
+text-transform: uppercase;
+color: #646464;
+font-size: 16px;
+margin-top: 15px;
+}
+.contact-1 .contact-text .box p {
+	margin: 0;
+	margin-top: 5px;
+	color: #fff;
+	font-size: 16px;
+	overflow: hidden;
+}
+.contact-1 .contact-form p {
+color: #868686;
+margin: 0;
+}
+.contact-1 .contact-form h3 {
+color: #464646;
+text-transform: uppercase;
+font-size: 25px;
+margin-top: 10px;
+}
+.contact-1 .contact-form form{
+margin-top: 30px;
+}
+.contact-1 .contact-form form .cust-input {
+    height: 45px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 45px;
+    border-radius: 2px;
+    border: 1px solid #dadada;
+}
+textarea.form-control{
+    border: 1px solid #dadada;
+    border-radius: 2px;
+}
+.contact-1 .contact-form form .cust-input:focus {
+color: #495057;
+background-color: #fff;
+border-color: #a099c6;
+outline: 0;
+box-shadow: 0 0 0 .2rem #e6e1ff;
+}
+.contact-1 .contact-form form .cust-input::placeholder {
+color: #868686;
+font-size: 14px;
+}
+.contact-1 .contact-form form .cust-input-1::placeholder{
+color: #868686;
+font-size: 14px;
+}
+.contact-1 .contact-form form .cust-input-1:focus {
+color: #495057;
+background-color: #fff;
+border-color: #a099c6;
+outline: 0;
+box-shadow: 0 0 0 .2rem #e6e1ff;
+}
+.contact-1 .contact-form .contact-btn {
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #f7b228;
+  color: #fff;
+  border: 2px solid #f7b228;
+  display: inline-block;
+  text-transform: capitalize;
+  border-radius:0px ;
+  -webkit-transition: 0.5s;
+  font-family: 'Open Sans', sans-serif;
+  transition: 0.5s;
+}
+.contact-1 .contact-form .contact-btn:hover {
+  background-color: #d8b25a;
+border: 2px solid #d8b25a;
+color: #fff;
+}
+.contact-1 .contact-text .box i {
+	font-size: 30px;
+	color: #fff;
+	float: left;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+/*contact-1-sec end  */
+.form-control {
+  font-family: 'Open Sans', sans-serif;
+ }
+ .google-map {
+	height: 450px;
+}
+@media screen and (max-width:991px){
+.contact-1 .contact-form{
+  margin-top: 0px;
+}
+    .contact-form {
+        padding: 30px 15px;
+    }
+.contact-1 .contact-form form {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.header {
+  background: #1e1e1e;
+}
+
+.contact-1 {.contact-form
+	margin-top: -130px;
+}
+.dis-flex-contact {
+	flex-direction: column;
+}
+.contact-details {
+	width: 100%;
+
+}
+    .contact-1{
+        padding-bottom: 50px;
+    }
+}
