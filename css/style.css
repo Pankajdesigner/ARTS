@@ -158,6 +158,64 @@ footer a:hover {
     background-position: center;
 }
 
+.top-header-page.con-bg {
+    background: url(../img/contact.jpg);
+    background-size: cover;
+}
+
+.box-info-contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.title-block {
+    font-size: 20px;
+    color: #22409A;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-margin .tt-main {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.section-margin .form-control {
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.section-margin .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.entry-box label {
+    color: #ee8344;
+    margin-bottom: 5px;
+}
+
+button.btn-theme {
+    border: none;
+    border-radius: 4px;
+}
+
+.top-header-page.vid {
+    height: 500px;
+    background: #22409A;
+}
+
+.top-header-page.vid video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 .top-header-page .tt-main {
     color: #fff;
     position: relative;
@@ -1147,6 +1205,18 @@ button:focus {
     display: none;
 }
 
+.right-ul-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.right-ul-list li {
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #EE8344;
+}
+
 /* foote code hare end*/
 /*responsive code  */
 @media (max-width:1400px) {
@@ -1198,6 +1268,24 @@ button:focus {
         font-size: 23px;
     }
 
+    .section-margin .form-control {
+        border-radius: 2px;
+        font-size: 14px;
+    }
+
+    .section-margin .tt-main {
+        margin-bottom: 4px;
+        font-size: 18px;
+    }
+
+    .input__wrap {
+        margin-bottom: 40px;
+    }
+
+    .top-header-page.vid {
+        height: 290px;
+    }
+
     .top-header-page {
         padding: 0 15px;
         height: 300px;
@@ -1230,7 +1318,7 @@ button:focus {
 
     .in-section {
         padding: 50px 0;
-        
+
     }
 
     .rts .or-list p {
