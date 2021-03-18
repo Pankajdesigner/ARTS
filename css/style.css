@@ -104,7 +104,7 @@ footer a:hover {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #505E85;
-    font-size: 18px;
+    font-size: 27px;
 }
 
 .right-content i {
@@ -394,7 +394,7 @@ button.btn-theme {
 }
 
 .header .navbar-brand img {
-    width: 70px;
+    width: 90px;
     transition: 0.5s;
 
 }
@@ -657,6 +657,7 @@ button:focus {
     font-size: 17px;
     color: #505E85;
     line-height: 1.7;
+    margin-bottom: 0;
 }
 
 .tt-main {
@@ -1198,11 +1199,11 @@ button:focus {
 }
 
 .hide-on-mobile {
-    display: inline-block;
+    display: none;
 }
 
 .show-on-mobile {
-    display: none;
+    display: block;
 }
 
 .right-ul-list {
@@ -1352,7 +1353,7 @@ button:focus {
     .header {}
 
     .right-content i {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .header.sticky_header .navbar {
@@ -1364,8 +1365,11 @@ button:focus {
     }
 
     .header .navbar-brand img {
-        width: 50px;
+        width: 60px;
         transition: 0.5s;
+    }
+    .right-content {
+        margin-left: 5px;
     }
 
     .header .navbar {
