@@ -162,6 +162,11 @@ footer a:hover {
     background: url(../img/contact.jpg);
     background-size: cover;
 }
+.top-header-page.bus{
+    background: url(../img/brts-left.jpg) !important;
+    background-size: cover  !important;
+    background-position: center !important;
+}
 
 .box-info-contact ul {
     list-style: none;
@@ -508,7 +513,7 @@ button.btn-theme {
 }
 
 .home-slider .img-slide1.three {
-    background: url(../img/slider-3.jpg);
+    background: url(../img/brts-left.jpg);
     background-size: cover;
     background-position: center;
 }
