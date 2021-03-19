@@ -1229,6 +1229,20 @@ button:focus {
     font-weight: 500;
     color: #EE8344;
 }
+.top-header-page.vid h1{
+    visibility: hidden;
+}
+
+footer br{
+    display: none;
+}
+footer b{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    display: block;
+    font-weight: 600;
+}
 
 /* foote code hare end*/
 /*responsive code  */
@@ -1279,6 +1293,9 @@ button:focus {
 @media (max-width:991px) {
     .top-header-page .tt-main {
         font-size: 23px;
+    }
+    footer b {
+        font-size: 14px;
     }
     .col-md-val{
         flex-wrap: wrap;
