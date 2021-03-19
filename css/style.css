@@ -250,9 +250,7 @@ button.btn-theme {
 }
 
 .or-list {
-    border-bottom: 1px solid rgb(255 255 255 / 18%);
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+
 }
 
 .or-list:last-child {
@@ -308,19 +306,25 @@ button.btn-theme {
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-left: 15px;
+    display: block;
+    margin-top: 15px;
+}
+.col-md-val{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .rts .or-list p {
     font-size: 16px;
     padding-left: 75px;
     position: relative;
+    display: none;
     margin-top: -30px;
 }
 
 .or-list .top {
-    display: flex;
-    align-items: flex-start;
+    text-align: center;
 }
 
 .row.bt-abt {
@@ -1276,7 +1280,9 @@ button:focus {
     .top-header-page .tt-main {
         font-size: 23px;
     }
-
+    .col-md-val{
+        flex-wrap: wrap;
+    }
     .section-margin .form-control {
         border-radius: 2px;
         font-size: 14px;
@@ -1315,8 +1321,11 @@ button:focus {
         padding-bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
+        width: 100%;
     }
-
+    .brk-line{
+        margin-bottom: 20px;
+    }
     .or-list span {
         font-size: 16px;
     }

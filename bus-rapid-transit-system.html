@@ -73,7 +73,7 @@
     </div>
 
     <div class="top-header-page vid bus"> 
-         <video autoplay muted loop>
+         <video autoplay muted loop id="myVideo">
             <source src="https://atriarts.com/video/bus.mp4" type="video/mp4">
         </video>
         <h1 class="tt-main">BUS RAPID TRANSIT SYSTEM</h1>
@@ -98,7 +98,7 @@
             </div>
         </div> 
     </div>
-     
+
 
 
     <footer>
@@ -106,7 +106,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <h4>Address</h4>
-                    <p>Plot No: 227, H.No. 8-2-293/A/A/2 & A/A/2/1,
+                    <p><b>Atria Rapid Transport Systems Ltd</b> <br> Plot No: 227, H.No. 8-2-293/A/A/2 & A/A/2/1,
                         Road No. 2, Banjara Hills, Hyderabad. 500034</p>
                 </div>
                 <div class="col-md-4">
@@ -203,8 +203,13 @@
     </script>
     <script>
 
-        $('document').ready(function () {
+        $('document').ready(function() {
             $('.main-loader').fadeOut();
+
+            var vid = document.getElementById("myVideo");
+
+            vid.playbackRate = 3;
+
         });
 
     </script>
