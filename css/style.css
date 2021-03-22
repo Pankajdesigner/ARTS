@@ -1232,7 +1232,11 @@ button:focus {
 .top-header-page.vid h1{
     visibility: hidden;
 }
-
+.top-header-page.prt{
+    background: url(../img/slider-4.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
 footer br{
     display: none;
 }
