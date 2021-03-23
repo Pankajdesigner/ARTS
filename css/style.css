@@ -135,7 +135,9 @@ footer a:hover {
 
 .right-content {
     margin-left: 12px;
-    display: flex;
+    display: block;
+    float: left;
+    margin-top: 12px;
     align-items: center;
     position: relative;
     top: 2px;
@@ -394,19 +396,24 @@ button.btn-theme {
 
 .header .navbar {
     padding: 0px 0px;
+    display: block;
 }
-
+.dis-flex-nav{
+    float: left;
+}
 .header.sticky_header .navbar {
     padding: 0px 0px;
     transition: 0.5s;
 }
 
 .navbar-brand {
-    display: flex;
+    display: block;
+    padding: 17px 0px;
 }
 
 .header .navbar-brand img {
     width: 90px;
+    float: left;
     transition: 0.5s;
 
 }
@@ -1404,7 +1411,8 @@ footer b{
         display: block;
     }
     .dis-flex-nav{
-         display: block;
+        display: block;
+        float: none;
     }
     .right-content i {
         font-size: 13px;
@@ -1418,6 +1426,7 @@ footer b{
     }
     .navbar-brand{
         display: block;
+        padding: 5px 0px;
     }
     .navbar-brand .right-content, .navbar-brand img{
         float: left;
@@ -1471,7 +1480,7 @@ footer b{
     }
 
     .navbar-light .navbar-toggler-icon {
-        background-image: url("../images/menu-icon.webp");
+        background-image: url("../img/menu-icon.png");
         background-size: 16px;
     }
 
