@@ -1388,12 +1388,12 @@ footer b{
         display: block;
     }
 
-    .header {
-        height: 80px;
-    }
-    .header.open {
-        height: auto;
-    }
+    /*.header, .header .container, .header .navbar {*/
+    /*    height: 80px;*/
+    /*}*/
+    /*.header.open {*/
+    /*    height: auto;*/
+    /*}*/
 
     .right-content i {
         font-size: 13px;
@@ -1410,6 +1410,7 @@ footer b{
     .header .navbar-brand img {
         width: 60px;
         transition: 0.5s;
+        height: auto;
     }
     .right-content {
         margin-left: 5px;
