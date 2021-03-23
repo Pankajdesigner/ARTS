@@ -1400,7 +1400,14 @@ footer b{
     .header.open .collapse{
         height: auto;
     }
-
+    .navbar{
+        display: block;
+    }
+    .dis-flex-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .right-content i {
         font-size: 13px;
     }
