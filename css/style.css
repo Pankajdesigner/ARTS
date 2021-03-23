@@ -1388,7 +1388,12 @@ footer b{
         display: block;
     }
 
-    .header {}
+    .header {
+        height: 80px;
+    }
+    .header.open {
+        height: auto;
+    }
 
     .right-content i {
         font-size: 13px;
