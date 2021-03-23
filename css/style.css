@@ -1416,6 +1416,16 @@ footer b{
     .navbar-brand{
         float: left;
     }
+    .navbar-brand{
+        display: block;
+    }
+    .navbar-brand .right-content, .navbar-brand img{
+        float: left;
+    }
+    .right-content {
+        margin-top: 3px;
+        margin-left: 5px;
+    }
 
     .header.sticky_header .navbar {
         padding: 10px 0;
@@ -1429,9 +1439,7 @@ footer b{
         width: 60px;
         transition: 0.5s;
     }
-    .right-content {
-        margin-left: 5px;
-    }
+
 
     .header .navbar {
         padding: 0;
