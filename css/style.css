@@ -1404,12 +1404,17 @@ footer b{
         display: block;
     }
     .dis-flex-nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+         display: block;
     }
     .right-content i {
         font-size: 13px;
+    }
+    .navbar-toggler{
+        float: right;
+        margin-top: 14px;
+    }
+    .navbar-brand{
+        float: left;
     }
 
     .header.sticky_header .navbar {
